@@ -1,0 +1,25 @@
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.imageOverFont{
+    position: relative;
+    width: 100%;
+    max-height: 50%;
+}
+
+.fontOverImage
+{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+
+}
+
+.imageFit
+{
+    max-width: 100%;
+    max-height: 400px;
+    min-height: 200px;
+}
