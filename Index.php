@@ -56,8 +56,8 @@
 
 <div class="imageOverFont">
     <img class="img-responsive" style="" src="Images/HeaderPhoto1.jpg">
-    <h2 class="fontOverImage">woehqewqygewyqgey</h2>
-
+    <h2 class="fontOverImage">WE ALL SHARE<br>COMMON GROUND.<br> </h2>
+    <h2 class="fontOverImage2"><span>get dirty. join the revolution</span></h2>
 </div>
 
 

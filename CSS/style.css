@@ -10,13 +10,34 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .fontOverImage
 {
+    padding-left: 14%;
+    font-size: 400%;
+    color: white;
     position: absolute;
-    top: 200px;
+    top: 70%;
     left: 0;
     width: 100%;
 
 }
+.fontOverImage2
+{
 
+    padding-left: 14%;
+    color: white;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+
+}
+h2 span {
+
+    color: white;
+    font-size: 200%;
+    letter-spacing: -1px;
+    background: #ee6a7c;
+    padding: 10px;
+}
 .imageFit
 {
     max-width: 100%;
