@@ -19,6 +19,7 @@
 </head>
 
 <body>
+<br><br><br>
 <div class="container-fluid">
     <div class="row">
         <ul class="nav nav-tabs">
@@ -54,21 +55,79 @@
     </div>
 </div>
 
-<div class="imageOverFont">
-    <img class="img-responsive" style="" src="Images/HeaderPhoto1.jpg">
+
+<div style="padding-left: 0px; padding-right: 0px" class="container-fluid ">
+    <img class="img-responsive" src="Images/HeaderPhoto1.jpg">
     <h2 class="fontOverImage">WE ALL SHARE<br>COMMON GROUND.<br> </h2>
     <h2 class="fontOverImage2"><span>get dirty. join the revolution</span></h2>
+
+</div>
+
+<img class="imageFit" src="Images/SoilWorkLogo.png">
+
+
+
+<div class="container-fluid">
+    <p  class="text-center" style="font-size: 3em; padding-top:20vh;">
+        We believe that healthy soils <br> makes for a healthy planet.
+    </p>
 </div>
 
 
+<div style="font-size: 2em" class=" text-center container-fluid">
+    <p style="padding-top:20vh; display: inline-block; text-align: left">
+      <strong>  For this generation of <a href=""> eaters</a> <br>
+        For this generation of <a href=""> activists</a> <br>
+        For this generation of <a href=""> researchers</a> <br>
+        For this generation of <a href=""> teachers</a> <br>
+        For this generation of <a href=""> growers</a> <br>
+        For this generation of <a href=""> doers</a> <br>
+      </strong>
+    </p>
+</div>
+
+
+
+<h2 style="padding-top: 20vh; padding-bottom: 10px"><span style="font-size: 1em;padding-left: 2%; padding-right: 25%">soil profiles</span></h2>
+
+<div class="container">
+    <!-- Projects Row -->
+    <div  class="row">
+        <div  class="col-md-4 portfolio-item">
+            <a  href="#">
+                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
+            </a>
+        </div>
+        <div class="col-md-4 portfolio-item">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
+            </a>
+        </div>
+        <div class="col-md-4  portfolio-item">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
+            </a>
+        </div>
+        <div class="col-md-4 portfolio-item">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
+            </a>
+        </div>
+        <div class="col-md-4 portfolio-item">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
+            </a>
+        </div>
+        <div class="col-md-4  portfolio-item">
+            <a href="#">
+                <img class="img-responsive" src="http://placehold.it/750x750/000000/ffffff" alt="">
+            </a>
+        </div>
+
+    </div>
+    <!-- /.row -->
+
 </body>
-<?php
-/**
- * Created by PhpStorm.
- * User: long
- * Date: 3/16/2017
- * Time: 7:51 PM
- */
-?>
+
 
 </html>

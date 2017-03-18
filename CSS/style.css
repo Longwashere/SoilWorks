@@ -5,7 +5,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .imageOverFont{
     position: relative;
     width: 100%;
-    max-height: 50%;
+    height: 50%;
 }
 
 .fontOverImage
@@ -14,21 +14,26 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 400%;
     color: white;
     position: absolute;
-    top: 70%;
+    top: 400px;
     left: 0;
-    width: 100%;
 
 }
+
+.portfolio-item {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
 .fontOverImage2
 {
 
     padding-left: 14%;
     color: white;
     position: absolute;
-    top: 110%;
+    top: 530px;
     left: 0;
     width: 100%;
-
 }
 h2 span {
 
@@ -40,7 +45,18 @@ h2 span {
 }
 .imageFit
 {
-    max-width: 100%;
-    max-height: 400px;
-    min-height: 200px;
+    right:75%;
+    top:-1%;
+    position: absolute;
+    max-width: 90%;
+    max-height: 300px;
+    min-height: 0px;
 }
+
+.imageFit img{
+    display: block;
+    width: 100px;
+    height: 20px;
+    background: green
+}
+
