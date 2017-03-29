@@ -43,6 +43,11 @@ h2 span {
     background: #ee6a7c;
     padding: 10px;
 }
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 .imageFit
 {
     right:75%;
@@ -58,5 +63,15 @@ h2 span {
     width: 100px;
     height: 20px;
     background: green
+}
+
+.transparentAnimation{
+    animation-name: transparent;
+    animation-duration: 10s;
+}
+@keyframes transparent {
+    0%{opacity: 0;}
+    25% {opacity: 100;}
+    50%{opacity: .4;}
 }
 
