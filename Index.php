@@ -61,10 +61,10 @@
     <img  src="Images/HeaderPhoto1.jpg" style="width:100%; height: 90%">
     <h2 class="fontOverImage">WE ALL SHARE<br>COMMON GROUND.<br></h2>
     <h2 class="fontOverImage2"><span>get dirty. join the revolution</span></h2>
-
+    <img class="imageFit" src="Images/SoilWorkLogo.png">
 </div>
 
-<img class="imageFit" src="Images/SoilWorkLogo.png">
+
 
 <div class="container-fluid" style="padding-top: 2vh">
 

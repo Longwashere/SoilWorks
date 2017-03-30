@@ -11,10 +11,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .fontOverImage
 {
     padding-left: 14%;
-    font-size: 400%;
+    font-size: 8vh;
     color: white;
     position: absolute;
-    top: 400px;
+    top: 50vh;
     left: 0;
 
 }
@@ -27,21 +27,20 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .fontOverImage2
 {
-
     padding-left: 14%;
     color: white;
     position: absolute;
-    top: 530px;
+    top: 70vh;
     left: 0;
     width: 100%;
+    font-size: 8vh;
 }
 h2 span {
 
     color: white;
-    font-size: 200%;
     letter-spacing: -1px;
     background: #ee6a7c;
-    padding: 10px;
+    padding: .9%;
 }
 .col-centered{
     float: none;
