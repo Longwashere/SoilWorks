@@ -1,13 +1,3 @@
-@font-face {
-    font-family: acre;
-    src: url(fonts/Acre-Medium.otf);
-}
-
-* {
-  font-family:acre;
-  letter-spacing: 1px;
-}
-
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
 }
