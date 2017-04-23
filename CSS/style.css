@@ -9,8 +9,8 @@
 }
 .dropdown-toggle {
   color:black;
-
 }
+
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
 }
@@ -39,8 +39,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .fontOverImage2 {
-    margin-left: 13%;
-    padding-left: 2%;
+    margin-left: 14%;
+    padding-left: 1%;
     padding-right: 0%;
     color: white;
     position: absolute;
@@ -84,6 +84,16 @@ h3 {
     width: 100px;
     height: 20px;
     background: green
+}
+
+.imageFit3
+{
+    right:69%;
+    top:4%;
+    position: absolute;
+    max-width: 90%;
+    max-height: 300px;
+    min-height: 0px;
 }
 
 .transparentAnimation{
