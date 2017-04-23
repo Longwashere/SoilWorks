@@ -1,31 +1,34 @@
 @font-face {
     font-family: acre;
-    src: url(fonts/Acre-Medium.otf);
+    src: url(acre-Medium.otf);
 }
 
 * {
   font-family:acre;
   letter-spacing: 1px;
 }
+.dropdown-toggle {
+  color:black;
 
+}
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
 }
 
-.imageOverFont{
+.imageOverFont {
     position: relative;
     width: 100%;
     height: 50%;
 }
 
-.fontOverImage
-{
+.fontOverImage {
     padding-left: 14%;
-    font-size: 8vh;
+    font-size: 9.5vh;
     color: white;
     position: absolute;
-    top: 50vh;
+    top: 45vh;
     left: 0;
+    line-height: 10vh;
 
 }
 
@@ -35,23 +38,32 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     padding-left: 5px;
 }
 
-.fontOverImage2
-{
-    padding-left: 14%;
+.fontOverImage2 {
+    margin-left: 13%;
+    padding-left: 2%;
+    padding-right: 0%;
     color: white;
     position: absolute;
-    top: 70vh;
+    top: 66vh;
     left: 0;
-    width: 100%;
-    font-size: 8vh;
+    width: 60%;
+    font-size: 5vh;
 }
-h2 span {
 
+h2 span {
     color: white;
     letter-spacing: -1px;
     background: #ee6a7c;
     padding: .9%;
 }
+
+h3 {
+    color: white;
+    letter-spacing: -1px;
+    background: #ee6a7c;
+    padding: .9%;
+};
+
 .col-centered{
     float: none;
     margin: 0 auto;
@@ -59,8 +71,8 @@ h2 span {
 
 .imageFit
 {
-    right:75%;
-    top:-1%;
+    right:88%;
+    top:2%;
     position: absolute;
     max-width: 90%;
     max-height: 300px;
