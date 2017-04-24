@@ -10,17 +10,14 @@
 
 /*BACKGROUND PARRALAX CSS*/
 
-
-/* http://callmenick.com/post/advanced-parallax-scrolling-effect */
-
 .parallax {
 
     background-image: url('../Images/HeaderPhoto1.jpg');
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-    display: list-item;
 }
 
 
@@ -34,7 +31,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .navbar-nav > li > a {
-  color: white;
+  color: black;
 }
 
 .imageOverFont {
@@ -66,21 +63,15 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-size: 5vh;
 }
 
-.fontOverImage3 {
-    text-align: center;
-    /* margin: top right bottom left*/
-    margin: 0 30% 20% 30%;
-    padding-left: 2vh;
-    padding-right: 2vh;
-    color: white;
-    font-size: 5vh;
+
+.portfolio-item {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-.text-center {
+h2 {
   color:white;
-}
-.text-center >span {
-  color:#a2c5a5;
 }
 
 h2 span {
@@ -97,6 +88,45 @@ h3 {
     padding: .9%;
 };
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.imageFit
+{
+    right:88%;
+    top:2%;
+    position: absolute;
+    max-width: 90%;
+    max-height: 300px;
+    min-height: 0px;
+}
+
+.imageFit img{
+    display: block;
+    width: 100px;
+    height: 20px;
+    background: green
+}
+
+.imageFit3
+{
+    right:75%;
+    top:2%;
+    position: absolute;
+    max-width: 90%;
+    max-height: 300px;
+    min-height: 0px;
+}
+
+.imageFit3 img{
+    display: block;
+    width: 100px;
+    height: 20px;
+    background: green
+}
+
 .transparentAnimation{
     animation-name: transparent;
     animation-duration: 10s;
@@ -107,7 +137,15 @@ h3 {
     50%{opacity: .4;}
 }
 
+#generationOf {
+  background: #a2c5a5;
 
+}
+
+#generationOf p {
+  color: white;
+  text-decoration-color: white;
+}
 
 footer {
   height: 150px;

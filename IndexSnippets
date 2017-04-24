@@ -1,0 +1,123 @@
+<html>
+<!-- SOIL STEPS ANIMATION -->
+<div class="container-fluid" style="padding-top: 20vh; padding-bottom:20vh;">
+
+    <div class="row">
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" alt="">
+        </div>
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" src="http://placehold.it/200x200/000000/ffffff" alt="" Style="animation-name: transparent;
+    animation-duration: 10s;">
+
+        </div>
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" style="animation-name: transparent;
+    animation-duration: 10s;" src="" alt="arrow">
+
+        </div>
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" src="http://placehold.it/200x200/000000/ffffff" alt="" Style="animation-name: transparent;
+    animation-duration: 10s;">
+
+        </div>
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" Style="animation-name: transparent;
+    animation-duration: 10s;" src="" alt="arrow">
+
+        </div>
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" src="http://placehold.it/200x200/000000/ffffff" Style="animation-name: transparent;
+    animation-duration: 10s;" alt="">
+        </div>
+
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" src="" alt="arrow" Style="animation-name: transparent;
+    animation-duration: 10s;">
+        </div>
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" src="http://placehold.it/200x200/000000/ffffff" alt="" Style="animation-name: transparent;
+    animation-duration: 10s;">
+
+        </div>
+
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" src="" alt="arrow" Style="animation-name: transparent;
+    animation-duration: 10s;">
+        </div>
+
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" src="http://placehold.it/200x200/000000/ffffff" alt="arrow" Style="animation-name: transparent;
+    animation-duration: 10s;">
+
+        </div>
+
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" src="" alt="">
+
+        </div>
+
+
+        <div class="col-md-1 col-centered">
+            <img class="img-responsive" alt="">
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- THIS GENERATION -->
+<div id="generationOf" style="font-size: 4em" class=" text-center container-fluid">
+    <p style="padding-top:20vh; padding-bottom:20vh; display: inline-block; text-align: left">
+        <strong> For this generation of <a href=""> eaters</a> <br>
+            For this generation of <a href=""> activists</a> <br>
+            For this generation of <a href=""> researchers</a> <br>
+            For this generation of <a href=""> teachers</a> <br>
+            For this generation of <a href=""> growers</a> <br>
+            For this generation of <a href=""> doers</a> <br>
+        </strong>
+    </p>
+</div>
+<h2 style="padding-top: 20vh; padding-bottom: 10vh"><span style="font-size: 1em;padding-left: 2%; padding-right: 25%">WEB OF SOIL</span>
+</h2>
+<div class="text-center container-fluid" style="padding-top:2vh;">
+
+  <canvas id="soilWebCanvas" height="1000px" width="1000px" style="border:1px solid #000000;">
+
+  </canvas>
+
+</div>
+
+FROM INDEX 2
+
+<div class="container-fluid" style="padding-left: 0px; padding-right: 0px">
+    <!-- <img  src="Images/HeaderPhoto1.jpg" style="width:100%; height: 100%"> -->
+    <h2 class="fontOverImage">WE ALL SHARE<br>COMMON GROUND.<br></h2>
+    <row><h3 class="fontOverImage2">get dirty. get connected.</h3><row>
+</div>
+
+
+<!-- HEALTHY SOILS HEALTHY PLANET -->
+<div class="container-fluid">
+   <h2 class="text-center" style="font-size: 4em;">
+       We believe that a healthy planet  <br> starts with healthy soils.
+   </h2>
+</div>
+
+
+
+
+
+<html>
