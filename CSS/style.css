@@ -1,6 +1,6 @@
 @font-face {
     font-family: acre;
-    src: url(acre-Medium.otf);
+    src: url(../CSS/Fonts/Acre-Medium.woff) format('woff');
 }
 
 * {
@@ -14,7 +14,6 @@
 /* http://callmenick.com/post/advanced-parallax-scrolling-effect */
 
 .parallax {
-
     background-image: url('../Images/HeaderPhoto1.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -23,6 +22,26 @@
     display: list-item;
 }
 
+.fertileUnderground {
+    height: 60vh;
+    /*background-image: url('../Images/natgeo9.jpg');*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: list-item;
+}
+
+
+.aboutUs {
+    height: 80vh;
+    background-image: url('../Images/natgeo14.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: list-item;
+}
 
 .dropdown-toggle {
   color:black;
@@ -34,7 +53,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .navbar-nav > li > a {
-  color: white;
+  color: black;
 }
 
 .imageOverFont {
@@ -64,6 +83,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     left: 0;
     width: 60%;
     font-size: 5vh;
+    
 }
 
 .fontOverImage3 {
@@ -82,6 +102,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .text-center >span {
   color:#a2c5a5;
 }
+
+
 
 h2 span {
     color: white;
@@ -107,9 +129,81 @@ h3 {
     50%{opacity: .4;}
 }
 
+#soilProfiles {
+  background: #a2c5a5;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
 
+#videoPLayer {
+
+}
+
+.portrait img{
+  height: 650px;
+  width: 390px;
+  overflow:hidden;
+  max-height: 650px;
+  max-width: 390px;
+
+}
+
+.portfolio-item {
+  /*height: 300px;
+  width: 300px;
+  overflow: hidden;*/
+  padding-top: 2vh;
+}
 
 footer {
   height: 150px;
   background: #a2c5a5;
+}
+
+
+
+/* RACHID"S FLIPPER */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+	width: 15%;
+  display:inline-block;
+}
+
+
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 20em;
+	height: 20em;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
 }
