@@ -1,68 +1,123 @@
+@font-face {
+    font-family: acre;
+    src: url(../CSS/Fonts/Acre-Medium.woff) format('woff');
+}
+
+* {
+  font-family:acre;
+  letter-spacing: 1px;
+}
+
+/*BACKGROUND PARRALAX CSS*/
+
+
+/* http://callmenick.com/post/advanced-parallax-scrolling-effect */
+
+.parallax {
+    background-image: url('../Images/HeaderPhoto1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: list-item;
+}
+
+.fertileUnderground {
+    height: 60vh;
+    /*background-image: url('../Images/natgeo9.jpg');*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: list-item;
+}
+
+
+.aboutUs {
+    height: 80vh;
+    background-image: url('../Images/natgeo14.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: list-item;
+}
+
+.dropdown-toggle {
+  color:black;
+}
+
+
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
 }
 
-.imageOverFont{
+.navbar-nav > li > a {
+  color: black;
+}
+
+.imageOverFont {
     position: relative;
     width: 100%;
     height: 50%;
 }
 
-.fontOverImage
-{
+.fontOverImage {
     padding-left: 14%;
-    font-size: 8vh;
+    font-size: 9.5vh;
     color: white;
     position: absolute;
-    top: 50vh;
+    top: 45vh;
     left: 0;
+    line-height: 10vh;
 
 }
 
-.portfolio-item {
-    margin-bottom: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-.fontOverImage2
-{
-    padding-left: 14%;
+.fontOverImage2 {
+    margin-left: 14%;
+    padding-left: 1%;
+    padding-right: 0%;
     color: white;
     position: absolute;
-    top: 70vh;
+    top: 66vh;
     left: 0;
-    width: 100%;
-    font-size: 8vh;
+    width: 60%;
+    font-size: 5vh;
+    
 }
+
+.fontOverImage3 {
+    text-align: center;
+    /* margin: top right bottom left*/
+    margin: 0 30% 20% 30%;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    color: white;
+    font-size: 5vh;
+}
+
+.text-center {
+  color:white;
+}
+.text-center >span {
+  color:#a2c5a5;
+}
+
+
+
 h2 span {
-
     color: white;
     letter-spacing: -1px;
     background: #ee6a7c;
     padding: .9%;
 }
-.col-centered{
-    float: none;
-    margin: 0 auto;
-}
 
-.imageFit
-{
-    right:75%;
-    top:-1%;
-    position: absolute;
-    max-width: 90%;
-    max-height: 300px;
-    min-height: 0px;
-}
-
-.imageFit img{
-    display: block;
-    width: 100px;
-    height: 20px;
-    background: green
-}
+h3 {
+    color: white;
+    letter-spacing: -1px;
+    background: #ee6a7c;
+    padding: .9%;
+};
 
 .transparentAnimation{
     animation-name: transparent;
@@ -74,3 +129,81 @@ h2 span {
     50%{opacity: .4;}
 }
 
+#soilProfiles {
+  background: #a2c5a5;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+#videoPLayer {
+
+}
+
+.portrait img{
+  height: 650px;
+  width: 390px;
+  overflow:hidden;
+  max-height: 650px;
+  max-width: 390px;
+
+}
+
+.portfolio-item {
+  /*height: 300px;
+  width: 300px;
+  overflow: hidden;*/
+  padding-top: 2vh;
+}
+
+footer {
+  height: 150px;
+  background: #a2c5a5;
+}
+
+
+
+/* RACHID"S FLIPPER */
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+	width: 15%;
+  display:inline-block;
+}
+
+
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 20em;
+	height: 20em;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
